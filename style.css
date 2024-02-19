@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{   
+    font-family: sans-serif;
+    background: rgb(238, 239, 248);
+}
+.container{
+       width: 100%;
+  
+}
+a{
+    text-decoration: none;
+    color: rgb(128, 125, 126);
+font-family: Causten;
+font-size: 22px;
+font-weight: 500;
+
+}
+
+#header{
+    margin: 30px 30px;
+}
+.header-logo{
+    color: rgb(60, 66, 66);
+    font-family: Mintaka;
+    font-size: 34.06px;
+    font-weight: 400;
+   
+}
+input{
+    width:300px;
+    height: 30px;
+    border-radius: 8px;
+
+background: rgb(246, 246, 246);
+    border: none;
+    border-radius: 5px;
+}
+.header{
+    margin: 0 5%;
+    width: 90% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+}
+.icons{
+   display: flex;
+   align-items: center;
+  gap: 20px;
+}
+.nav a{
+    margin: 0 25px;
+}
+#summer{
+    height: 716px;
+    background-image: 
+    
+    url('/img/Vector\ back.svg'),
+    url('/img/Vector\ forward.svg'),
+    url("/img/main\ img.svg");
+    background-repeat: no-repeat;
+        opacity: 1;
+    background-position:
+    10px 330px,
+    1400px 330px,
+    
+      0 0,
+      bottom left;
+    }
+    .summer-text h2{
+        color: rgb(255, 255, 255);
+        font-family: Core Sans C;
+        font-size: 32px;
+        font-weight: 500;
+        margin: 20px 50px;
+        
+    }
+.summer-text h1{
+    color: rgb(255, 255, 255);
+    font-family: Core Sans C;
+    font-size: 78px;
+    font-weight: 800;
+    margin: 20px 30px ;
+   
+}
+.summer-text h3{
+    color: rgb(255, 255, 255);
+font-family: Core Sans C;
+font-size: 32px;
+font-weight: 500;
+margin: 20px 30px;
+}
+   .summer-text{
+    color: rgb(255, 255, 255);
+font-family: Core Sans C;
+font-size: 32px;
+font-weight: 500;
+margin: 20px 50px;
+
+   } 
+   button{
+width: 250px;
+height: 61px;
+border: none;
+border-radius: 8px;
+color: rgb(60, 66, 66);
+font-family: Causten;
+font-size: 24px;
+font-weight: 700;
+margin: 190px 30px;
+
+   }
+   .high-left h2{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 800;
+   
+   }
+#high{
+    
+}
+.high {
+    margin: 50px 0;
+    display: flex;
+    gap: 10px;   
+}
+.high-left {
+    position: relative;
+    width: 625px;
+height: 355px;
+}
+.high img{
+    width: 555px;
+    
+   
+   
+}
